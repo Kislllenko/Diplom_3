@@ -1,0 +1,204 @@
+{
+  "uid" : "956404e587f2de6d",
+  "name" : "Переход из личного кабинета по клику на «Stellar Burgers»",
+  "fullName" : "ConstructorTransferTest.openConstructorThroughLogo",
+  "historyId" : "9022dade2acf31a9f20ab919ae45ddbe",
+  "time" : {
+    "start" : 1688304829362,
+    "stop" : 1688304836671,
+    "duration" : 7309
+  },
+  "description" : "В данном сценарии проверяется переход в конструктор по клику на «Stellar Burgers»",
+  "descriptionHtml" : "<p>В данном сценарии проверяется переход в конструктор по клику на «Stellar Burgers»</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "В данном сценарии проверяется переход в конструктор по клику на «Stellar Burgers»",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST запрос для создания пользователя",
+      "time" : {
+        "start" : 1688304831360,
+        "stop" : 1688304831778,
+        "duration" : 418
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "body",
+        "value" : "app.pojo.CreateUserJson@7dbf92aa"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Переход на страницу",
+      "time" : {
+        "start" : 1688304831778,
+        "stop" : 1688304833857,
+        "duration" : 2079
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Клик по кнопке Войти в аккаунт",
+      "time" : {
+        "start" : 1688304833857,
+        "stop" : 1688304834038,
+        "duration" : 181
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Вход в аккаунт",
+      "time" : {
+        "start" : 1688304834039,
+        "stop" : 1688304834667,
+        "duration" : 628
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "kislenko-s@yandex.ru"
+      }, {
+        "name" : "password",
+        "value" : "1Qwe%G"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Клик по кнопке Войти в аккаунт",
+      "time" : {
+        "start" : 1688304835210,
+        "stop" : 1688304835341,
+        "duration" : 131
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Клик по лого Stellar Burgers",
+      "time" : {
+        "start" : 1688304835341,
+        "stop" : 1688304835741,
+        "duration" : 400
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST запрос для логина пользователя",
+      "time" : {
+        "start" : 1688304835835,
+        "stop" : 1688304836099,
+        "duration" : 264
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "body",
+        "value" : "app.pojo.CreateUserJson@7dbf92aa"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "DELETE запрос для удаления пользователя",
+      "time" : {
+        "start" : 1688304836100,
+        "stop" : 1688304836421,
+        "duration" : 321
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "userAccessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YTE3Y2JmOWVkMjgwMDAxYjM0MWY4NyIsImlhdCI6MTY4ODMwNDgzNiwiZXhwIjoxNjg4MzA2MDM2fQ.FJlyvwZje1WfYlmnFHbpX5DRRxxT6w0DMS8sKrP5EDk"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "ConstructorTransferTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "openConstructorThroughLogo"
+  }, {
+    "name" : "suite",
+    "value" : "Переход из личного кабинета в конструктор"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Sergej.local"
+  }, {
+    "name" : "thread",
+    "value" : "89383@MacBook-Pro-Sergej.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "956404e587f2de6d.json",
+  "parameterValues" : [ ]
+}
