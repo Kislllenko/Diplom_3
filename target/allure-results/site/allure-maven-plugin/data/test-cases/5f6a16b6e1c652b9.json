@@ -1,0 +1,204 @@
+{
+  "uid" : "5f6a16b6e1c652b9",
+  "name" : "Переход из личного кабинета по клику на «Конструктор»",
+  "fullName" : "ConstructorTransferTest.openConstructor",
+  "historyId" : "7e97a9785c872ba8c35b9833fff4e4e0",
+  "time" : {
+    "start" : 1688304836680,
+    "stop" : 1688304844338,
+    "duration" : 7658
+  },
+  "description" : "В данном сценарии проверяется переход в конструктор по клику на «Конструктор»",
+  "descriptionHtml" : "<p>В данном сценарии проверяется переход в конструктор по клику на «Конструктор»</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "В данном сценарии проверяется переход в конструктор по клику на «Конструктор»",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST запрос для создания пользователя",
+      "time" : {
+        "start" : 1688304838855,
+        "stop" : 1688304839213,
+        "duration" : 358
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "body",
+        "value" : "app.pojo.CreateUserJson@6f2d0d25"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Переход на страницу",
+      "time" : {
+        "start" : 1688304839213,
+        "stop" : 1688304841385,
+        "duration" : 2172
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Клик по кнопке Войти в аккаунт",
+      "time" : {
+        "start" : 1688304841385,
+        "stop" : 1688304841538,
+        "duration" : 153
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Вход в аккаунт",
+      "time" : {
+        "start" : 1688304841539,
+        "stop" : 1688304842262,
+        "duration" : 723
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "kislenko-s@yandex.ru"
+      }, {
+        "name" : "password",
+        "value" : "1Qwe%G"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Клик по кнопке Войти в аккаунт",
+      "time" : {
+        "start" : 1688304842684,
+        "stop" : 1688304842842,
+        "duration" : 158
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Клик по кнопке Конструктор",
+      "time" : {
+        "start" : 1688304842843,
+        "stop" : 1688304843294,
+        "duration" : 451
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST запрос для логина пользователя",
+      "time" : {
+        "start" : 1688304843374,
+        "stop" : 1688304843723,
+        "duration" : 349
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "body",
+        "value" : "app.pojo.CreateUserJson@6f2d0d25"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "DELETE запрос для удаления пользователя",
+      "time" : {
+        "start" : 1688304843724,
+        "stop" : 1688304844077,
+        "duration" : 353
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "userAccessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YTE3Y2M3OWVkMjgwMDAxYjM0MWY4YiIsImlhdCI6MTY4ODMwNDg0MywiZXhwIjoxNjg4MzA2MDQzfQ.kGkFrB7ya6_qi07LpdAZHO-cKJkaqI9qR52RLUu1QY8"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "ConstructorTransferTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "openConstructor"
+  }, {
+    "name" : "suite",
+    "value" : "Переход из личного кабинета в конструктор"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Sergej.local"
+  }, {
+    "name" : "thread",
+    "value" : "89383@MacBook-Pro-Sergej.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5f6a16b6e1c652b9.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,174 @@
+{
+  "uid" : "b73d0d956fd81c30",
+  "name" : "Вход через кнопку в форме регистрации",
+  "fullName" : "LoginTest.enterBtn",
+  "historyId" : "a8c2fc02a4cc50998f8bfcf4eb5ea5c1",
+  "time" : {
+    "start" : 1688304844349,
+    "stop" : 1688304851188,
+    "duration" : 6839
+  },
+  "description" : "В данном сценарии проверяется возможность войти в аккаунт через кнопку в форме регистрации",
+  "descriptionHtml" : "<p>В данном сценарии проверяется возможность войти в аккаунт через кнопку в форме регистрации</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "В данном сценарии проверяется возможность войти в аккаунт через кнопку в форме регистрации",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST запрос для создания пользователя",
+      "time" : {
+        "start" : 1688304846589,
+        "stop" : 1688304846992,
+        "duration" : 403
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "body",
+        "value" : "app.pojo.CreateUserJson@5b7f9eaa"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Переход на страницу",
+      "time" : {
+        "start" : 1688304846992,
+        "stop" : 1688304849060,
+        "duration" : 2068
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Клик по кнопке Войти",
+      "time" : {
+        "start" : 1688304849061,
+        "stop" : 1688304849180,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Вход в аккаунт",
+      "time" : {
+        "start" : 1688304849181,
+        "stop" : 1688304849786,
+        "duration" : 605
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "kislenko-s@yandex.ru"
+      }, {
+        "name" : "password",
+        "value" : "1Qwe%G"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST запрос для логина пользователя",
+      "time" : {
+        "start" : 1688304850175,
+        "stop" : 1688304850581,
+        "duration" : 406
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "body",
+        "value" : "app.pojo.CreateUserJson@5b7f9eaa"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "DELETE запрос для удаления пользователя",
+      "time" : {
+        "start" : 1688304850582,
+        "stop" : 1688304850928,
+        "duration" : 346
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "userAccessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YTE3Y2NmOWVkMjgwMDAxYjM0MWY4ZiIsImlhdCI6MTY4ODMwNDg1MCwiZXhwIjoxNjg4MzA2MDUwfQ.1BBLkHT0iWrPqJXwVvFPbwJz8lsUgFmaCr64F5tmsgw"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "enterBtn"
+  }, {
+    "name" : "suite",
+    "value" : "Вход в аккаунт"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Sergej.local"
+  }, {
+    "name" : "thread",
+    "value" : "89383@MacBook-Pro-Sergej.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b73d0d956fd81c30.json",
+  "parameterValues" : [ ]
+}

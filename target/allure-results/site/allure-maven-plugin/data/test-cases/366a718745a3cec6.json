@@ -1,0 +1,159 @@
+{
+  "uid" : "366a718745a3cec6",
+  "name" : "Регистрация с валидными данными",
+  "fullName" : "RegistrationTest.registrationTest",
+  "historyId" : "aaf7fb5f596eebb25adde0a2bd64c1f2",
+  "time" : {
+    "start" : 1688304822560,
+    "stop" : 1688304829350,
+    "duration" : 6790
+  },
+  "description" : "В данном сценарии проверяется, что пользователь может быть зарегистрирован с валидными данными",
+  "descriptionHtml" : "<p>В данном сценарии проверяется, что пользователь может быть зарегистрирован с валидными данными</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "В данном сценарии проверяется, что пользователь может быть зарегистрирован с валидными данными",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Переход на страницу",
+      "time" : {
+        "start" : 1688304824662,
+        "stop" : 1688304827167,
+        "duration" : 2505
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Регистрация пользователя",
+      "time" : {
+        "start" : 1688304827167,
+        "stop" : 1688304828098,
+        "duration" : 931
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Kislenko"
+      }, {
+        "name" : "email",
+        "value" : "kislenko-s@yandex.ru"
+      }, {
+        "name" : "password",
+        "value" : "1Qwe%G"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверка отображения текста - Вход",
+      "time" : {
+        "start" : 1688304828099,
+        "stop" : 1688304828449,
+        "duration" : 350
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST запрос для логина пользователя",
+      "time" : {
+        "start" : 1688304828455,
+        "stop" : 1688304828729,
+        "duration" : 274
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "body",
+        "value" : "app.pojo.CreateUserJson@1f4dce67"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "DELETE запрос для удаления пользователя",
+      "time" : {
+        "start" : 1688304828730,
+        "stop" : 1688304829112,
+        "duration" : 382
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "userAccessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YTE3Y2JjOWVkMjgwMDAxYjM0MWY4NCIsImlhdCI6MTY4ODMwNDgyOCwiZXhwIjoxNjg4MzA2MDI4fQ.VsmchkEuc50oLecirakrTk6PG4Lqdh6h8R_X-IHq28A"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registrationTest"
+  }, {
+    "name" : "suite",
+    "value" : "Регистрация"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Sergej.local"
+  }, {
+    "name" : "thread",
+    "value" : "89383@MacBook-Pro-Sergej.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "366a718745a3cec6.json",
+  "parameterValues" : [ ]
+}
