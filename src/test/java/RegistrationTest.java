@@ -1,5 +1,5 @@
-import app.code_api_data.TokenResponse;
-import app.code_api_data.UserRequest;
+import app.api.TokenResponse;
+import app.api.UserRequest;
 import app.pojo.CreateUserJson;
 import app.url.PagesUrl;
 import io.qameta.allure.Description;

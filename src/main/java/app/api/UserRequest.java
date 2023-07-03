@@ -1,4 +1,4 @@
-package app.code_api_data;
+package app.api;
 
 import app.url.Uri;
 import io.qameta.allure.Step;

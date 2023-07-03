@@ -1,4 +1,4 @@
-package app.code_api_data;
+package app.api;
 
 public class User {
     private String email;
