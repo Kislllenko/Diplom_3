@@ -1,5 +1,6 @@
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
+import org.junit.Assert;
 import org.junit.Test;
 
 @DisplayName("Раздел «Конструктор»")
@@ -14,7 +15,8 @@ public class ConstructorTest extends BaseTest {
         app.homePage.isHomePageLoaded();
         app.homePage.clickConstructorFillingsBtn();
         app.homePage.clickConstructorBunBtn();
-        app.homePage.checkBunsSection();
+        Assert.assertEquals("Раздел «Булки» не отображается", app.homePage.getTextSection(), "Булки");
+
     }
 
     @Test
@@ -25,7 +27,7 @@ public class ConstructorTest extends BaseTest {
         app.homePage.open();
         app.homePage.isHomePageLoaded();
         app.homePage.clickConstructorSauceBtn();
-        app.homePage.checkSauceSection();
+        Assert.assertEquals("Раздел «Булки» не отображается", app.homePage.getTextSection(), "Соусы");
 
     }
 
@@ -37,7 +39,7 @@ public class ConstructorTest extends BaseTest {
         app.homePage.open();
         app.homePage.isHomePageLoaded();
         app.homePage.clickConstructorFillingsBtn();
-        app.homePage.checkFillingsSection();
+        Assert.assertEquals("Раздел «Булки» не отображается", app.homePage.getTextSection(), "Начинки");
 
     }
 }

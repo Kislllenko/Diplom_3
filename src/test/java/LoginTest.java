@@ -1,6 +1,5 @@
 import app.api.TokenResponse;
 import app.api.UserRequest;
-import app.pojo.CreateUserJson;
 import app.url.PagesUrl;
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
@@ -12,8 +11,6 @@ import static com.codeborne.selenide.WebDriverRunner.url;
 
 @DisplayName("Вход в аккаунт")
 public class LoginTest extends BaseTest {
-
-    CreateUserJson createUser = new CreateUserJson("kislenko-s@yandex.ru", "1Qwe%G", "Kislenko");
 
     @Before
     public void login() {
